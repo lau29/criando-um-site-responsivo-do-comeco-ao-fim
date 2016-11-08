@@ -1,0 +1,21 @@
+{
+  "name": "hxtutor",
+  "homepage": "https://github.com/lau29/criando-um-site-responsivo-do-comeco-ao-fim",
+  "authors": [
+    "'lau' <'lauspbv@gmail.com'>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
