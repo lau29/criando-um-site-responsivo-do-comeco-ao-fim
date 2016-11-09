@@ -3,7 +3,7 @@ var sass = require('gulp-ruby-sass');
 
 //task para o sass
 gulp.task('sass',function(){
-    return sass('sass/*.sass');
+    return sass('sass/*.sass').pipe(gulp.dest('css'))
 });
 
 //task default gulp
