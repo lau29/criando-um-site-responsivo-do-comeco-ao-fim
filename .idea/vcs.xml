@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/teste/criando-um-site-responsivo-do-comeco-ao-fim" vcs="Git" />
   </component>
 </project>
