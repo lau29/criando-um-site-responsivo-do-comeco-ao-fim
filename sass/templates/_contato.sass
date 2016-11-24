@@ -19,11 +19,33 @@ header
         +make-sm-column-offset(2)
 
         .cols
-        +make-row
-
+            +make-row
         .col
             +make-sm-column(6)
+
     input,
     select,
     textarea
-        width: 100%        
+        width: 100%
+        border: 2px solid $preto
+        padding: 7px
+        text-transform: uppercase
+        +transition(.3s)
+
+
+        &:hover
+           border-color: $azul
+        &:focus
+            border-color: $verde
+
+    select 
+        height: 37px           
+
+    button
+        background-color: transparent 
+        display: table 
+        margin: 0 auto
+
+    .bg-success,
+    .bg-danger
+        padding: 7px     
