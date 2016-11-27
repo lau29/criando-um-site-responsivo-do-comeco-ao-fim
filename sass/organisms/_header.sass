@@ -12,7 +12,7 @@ header
     bottom: 0
     width: 100%
     height: 45px
-    +gradient(90deg, $vermelho, $preto)
+    +gradient(100deg, $azul, $branco)
 
 
   background:
@@ -51,6 +51,25 @@ header
           a
             color: $branco
             text-transform: uppercase
+
+            &:hover
+              &:after
+                  width: 60%
+
+
+            &:after
+              content: ""
+              display: table
+              margin: 5px auto 0
+              width: 0%
+              height: 2px
+              background-color: $branco
+              +transition(.3s)
+
+
+
+
+
 
     .social
       li
